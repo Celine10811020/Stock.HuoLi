@@ -23,16 +23,9 @@ document.getElementById("InputBuy").addEventListener("keyup", function(e) {
 });
 document.getElementById("InputSell").addEventListener("keyup", function(e) {
   if (e.keyCode === 13) {
-    clearNumber()
-    document.getElementById("InputNumber").focus();
-  }
-});
-document.getElementById("InputNumber").addEventListener("keyup", function(e) {
-  if (e.keyCode === 13) {
     document.getElementById("Calculate").click();
   }
 });
 
 document.getElementById("InputBuy").onclick = function() {clearBuy()};
 document.getElementById("InputSell").onclick = function() {clearSell()};
-document.getElementById("InputNumber").onclick = function() {clearNumber()};

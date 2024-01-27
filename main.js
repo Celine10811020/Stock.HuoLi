@@ -4,7 +4,7 @@ function calculate()
 
   inputBuy = document.getElementById("InputBuy").value;
   inputSell = document.getElementById("InputSell").value;
-  inputNumber = document.getElementById("InputNumber").value;
+  inputNumber = 1;
 
   heJiBuy = parseFloat(biLi) * parseFloat(inputBuy) * parseFloat(inputNumber);
   heJiSell = parseFloat(biLi) * parseFloat(inputSell) * parseFloat(inputNumber);
@@ -57,8 +57,4 @@ function clearBuy()
 function clearSell()
 {
    document.getElementById('InputSell').value = "";
-}
-function clearNumber()
-{
-   document.getElementById('InputNumber').value = "";
 }
