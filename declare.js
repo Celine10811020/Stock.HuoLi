@@ -1,6 +1,5 @@
 var inputBuy;
 var inputSell;
-var inputNumber;
 var jingDe;
 var huoLi;
 
